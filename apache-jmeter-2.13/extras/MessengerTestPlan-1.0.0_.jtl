@@ -456,4 +456,919 @@ User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
   <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
 </httpSample>
 
+<httpSample t="19348" it="0" lt="19348" ct="105" ts="1446421854853" s="true" lb="GET - messages" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="465" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 330
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;messages&gt;&lt;message&gt;&lt;author&gt;pg&lt;/author&gt;&lt;createdDate&gt;2015-11-02T00:51:13.934+01:00&lt;/createdDate&gt;&lt;id&gt;1&lt;/id&gt;&lt;message&gt;msg&lt;/message&gt;&lt;/message&gt;&lt;message&gt;&lt;author&gt;pg2&lt;/author&gt;&lt;createdDate&gt;2015-11-02T00:51:13.934+01:00&lt;/createdDate&gt;&lt;id&gt;2&lt;/id&gt;&lt;message&gt;msg2&lt;/message&gt;&lt;/message&gt;&lt;/messages&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1446421874415" s="true" lb="GET - messages - 1" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="316" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 181
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;message&gt;&lt;author&gt;pg&lt;/author&gt;&lt;createdDate&gt;2015-11-02T00:51:14.417+01:00&lt;/createdDate&gt;&lt;id&gt;1&lt;/id&gt;&lt;message&gt;msg&lt;/message&gt;&lt;/message&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages/1</java.net.URL>
+</httpSample>
+<httpSample t="19348" it="0" lt="19348" ct="105" ts="1446421854853" s="true" lb="GET - profiles" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="210" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 76
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profiles/&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="55" ct="0" ts="1446421874450" s="true" lb="POST - message - msg3" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="322" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 187
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 80
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;message&gt;&#xd;
+  &lt;author&gt;author3&lt;/author&gt;&#xd;
+  &lt;createdDate&gt;2015-11-02T00:51:14.495+01:00&lt;/createdDate&gt;&#xd;
+  &lt;id&gt;3&lt;/id&gt;&#xd;
+  &lt;message&gt;msg3&lt;/message&gt;&#xd;
+&lt;/message&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;message&gt;&#xd;
+    &lt;author&gt;author3&lt;/author&gt;&#xd;
+    &lt;message&gt;msg3&lt;/message&gt;&#xd;
+&lt;/message&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1446421874515" s="true" lb="GET - messages - after - POST" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="597" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 462
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;messages&gt;&lt;message&gt;&lt;author&gt;pg&lt;/author&gt;&lt;createdDate&gt;2015-11-02T00:51:14.511+01:00&lt;/createdDate&gt;&lt;id&gt;1&lt;/id&gt;&lt;message&gt;msg&lt;/message&gt;&lt;/message&gt;&lt;message&gt;&lt;author&gt;pg2&lt;/author&gt;&lt;createdDate&gt;2015-11-02T00:51:14.511+01:00&lt;/createdDate&gt;&lt;id&gt;2&lt;/id&gt;&lt;message&gt;msg2&lt;/message&gt;&lt;/message&gt;&lt;message&gt;&lt;author&gt;author3&lt;/author&gt;&lt;createdDate&gt;2015-11-02T00:51:14.495+01:00&lt;/createdDate&gt;&lt;id&gt;3&lt;/id&gt;&lt;message&gt;msg3&lt;/message&gt;&lt;/message&gt;&lt;/messages&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="0" ts="1446421874503" s="false" lb="GET - profile - 1" rc="404" rm="Not Found" tn="Profiles 2-1" dt="text" de="utf-8" by="1181" sc="1" ec="1" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 1008
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;Apache Tomcat/8.0.9 - Error report&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}.line {height: 1px; background-color: #525D76; border: none;}&lt;/style&gt; &lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 - Not Found&lt;/h1&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt; Status report&lt;/p&gt;&lt;p&gt;&lt;b&gt;message&lt;/b&gt; &lt;u&gt;Not Found&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt; &lt;u&gt;The requested resource is not available.&lt;/u&gt;&lt;/p&gt;&lt;hr class=&quot;line&quot;&gt;&lt;h3&gt;Apache Tomcat/8.0.9&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles/profile/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="0" ts="1446421874532" s="true" lb="PUT - message - id - 3" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="318" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 183
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 154
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;message&gt;&#xd;
+  &lt;author&gt;pg6&lt;/author&gt;&#xd;
+  &lt;createdDate&gt;2015-06-28T01:37:50.053+02:00&lt;/createdDate&gt;&#xd;
+  &lt;id&gt;3&lt;/id&gt;&#xd;
+  &lt;message&gt;msg6&lt;/message&gt;&#xd;
+&lt;/message&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">&lt;message&gt;&#xd;
+    &lt;author&gt;pg6&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-06-28T01:37:50.053+02:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;3&lt;/id&gt;&#xd;
+    &lt;message&gt;msg6&lt;/message&gt;&#xd;
+&lt;/message&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1446421874562" s="true" lb="GET - messages - after - PUT" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="593" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 458
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;messages&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T00:51:14.558+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;message&gt;msg&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg2&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T00:51:14.558+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;2&lt;/id&gt;&#xd;
+    &lt;message&gt;msg2&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg6&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-06-28T01:37:50.053+02:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;3&lt;/id&gt;&#xd;
+    &lt;message&gt;msg6&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+&lt;/messages&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1446421874581" s="true" lb="DELETE - message - id - 3" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="226" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 92
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 37
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;responseMessage&gt;&#xd;
+  &lt;description&gt;Message id 3 has been deleted.&lt;/description&gt;&#xd;
+&lt;/responseMessage&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String">&lt;message&gt;&#xd;
+    &lt;id&gt;3&lt;/id&gt;&#xd;
+&lt;/message&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1446421874599" s="true" lb="GET - messages - after - DELETE" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="465" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 330
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;messages&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T00:51:14.589+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;message&gt;msg&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg2&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T00:51:14.589+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;2&lt;/id&gt;&#xd;
+    &lt;message&gt;msg2&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+&lt;/messages&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1446421874533" s="true" lb="POST - profile - profile1" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="215" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 81
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 137
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;responseMessage&gt;&#xd;
+  &lt;description&gt;Profile id=1 added.&lt;/description&gt;&#xd;
+&lt;/responseMessage&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+&lt;/profile&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1446421874720" s="true" lb="GET - profiles - after - POST" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="338" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 203
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profiles&gt;&#xd;
+  &lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+  &lt;/profile&gt;&#xd;
+&lt;/profiles&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1446421874756" s="true" lb="PUT - profile - profile5" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="219" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 85
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 137
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;responseMessage&gt;&#xd;
+  &lt;description&gt;Profile does not exist.&lt;/description&gt;&#xd;
+&lt;/responseMessage&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">&lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName5&lt;/firstName&gt;&#xd;
+    &lt;lastName&gt;lastName5&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile5&lt;/profileName&gt;&#xd;
+&lt;/profile&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1446421874783" s="true" lb="GET - profiles - after - PUT" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="338" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 203
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profiles&gt;&#xd;
+  &lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+  &lt;/profile&gt;&#xd;
+&lt;/profiles&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1446421874812" s="true" lb="DELETE - profile - profile2" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="219" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 85
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 62
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;responseMessage&gt;&#xd;
+  &lt;description&gt;Profile does not exist.&lt;/description&gt;&#xd;
+&lt;/responseMessage&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String">&lt;profile&gt;&#xd;
+    &lt;profileName&gt;profile2&lt;/profileName&gt;&#xd;
+&lt;/profile&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1446421874833" s="true" lb="GET - profile11" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="218" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 84
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profile&gt;&#xd;
+  &lt;id&gt;0&lt;/id&gt;&#xd;
+&lt;/profile&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles/profile11</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1446421874852" s="true" lb="GET - profiles - after" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="338" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 203
+Date: Sun, 01 Nov 2015 23:51:14 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profiles&gt;&#xd;
+  &lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+  &lt;/profile&gt;&#xd;
+&lt;/profiles&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+
+<httpSample t="29" it="0" lt="29" ct="2" ts="1446497084579" s="true" lb="GET - messages" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="465" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 330
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;messages&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.589+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;message&gt;msg&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg2&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.589+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;2&lt;/id&gt;&#xd;
+    &lt;message&gt;msg2&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+&lt;/messages&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="2" ts="1446497084579" s="true" lb="GET - profiles" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="338" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 203
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profiles&gt;&#xd;
+  &lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+  &lt;/profile&gt;&#xd;
+&lt;/profiles&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1446497084613" s="true" lb="GET - messages - 1" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="316" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 181
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;message&gt;&#xd;
+  &lt;author&gt;pg&lt;/author&gt;&#xd;
+  &lt;createdDate&gt;2015-11-02T21:44:44.620+01:00&lt;/createdDate&gt;&#xd;
+  &lt;id&gt;1&lt;/id&gt;&#xd;
+  &lt;message&gt;msg&lt;/message&gt;&#xd;
+&lt;/message&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages/1</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="0" ts="1446497084628" s="true" lb="POST - message - msg3" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="322" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 187
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 80
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;message&gt;&lt;author&gt;author3&lt;/author&gt;&lt;createdDate&gt;2015-11-02T21:44:44.620+01:00&lt;/createdDate&gt;&lt;id&gt;3&lt;/id&gt;&lt;message&gt;msg3&lt;/message&gt;&lt;/message&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;message&gt;&#xd;
+    &lt;author&gt;author3&lt;/author&gt;&#xd;
+    &lt;message&gt;msg3&lt;/message&gt;&#xd;
+&lt;/message&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1446497084623" s="false" lb="GET - profile - 1" rc="404" rm="Not Found" tn="Profiles 2-1" dt="text" de="utf-8" by="1181" sc="1" ec="1" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 1008
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;Apache Tomcat/8.0.9 - Error report&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}.line {height: 1px; background-color: #525D76; border: none;}&lt;/style&gt; &lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 - Not Found&lt;/h1&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt; Status report&lt;/p&gt;&lt;p&gt;&lt;b&gt;message&lt;/b&gt; &lt;u&gt;Not Found&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt; &lt;u&gt;The requested resource is not available.&lt;/u&gt;&lt;/p&gt;&lt;hr class=&quot;line&quot;&gt;&lt;h3&gt;Apache Tomcat/8.0.9&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles/profile/1</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1446497084635" s="true" lb="GET - messages - after - POST" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="597" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 462
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;messages&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.635+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;message&gt;msg&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg2&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.635+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;2&lt;/id&gt;&#xd;
+    &lt;message&gt;msg2&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;author3&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.620+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;3&lt;/id&gt;&#xd;
+    &lt;message&gt;msg3&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+&lt;/messages&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1446497084652" s="true" lb="PUT - message - id - 3" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="318" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 183
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 154
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;message&gt;&#xd;
+  &lt;author&gt;pg6&lt;/author&gt;&#xd;
+  &lt;createdDate&gt;2015-06-28T01:37:50.053+02:00&lt;/createdDate&gt;&#xd;
+  &lt;id&gt;3&lt;/id&gt;&#xd;
+  &lt;message&gt;msg6&lt;/message&gt;&#xd;
+&lt;/message&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">&lt;message&gt;&#xd;
+    &lt;author&gt;pg6&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-06-28T01:37:50.053+02:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;3&lt;/id&gt;&#xd;
+    &lt;message&gt;msg6&lt;/message&gt;&#xd;
+&lt;/message&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1446497084670" s="true" lb="GET - messages - after - PUT" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="593" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 458
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;messages&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.667+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;message&gt;msg&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg2&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.667+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;2&lt;/id&gt;&#xd;
+    &lt;message&gt;msg2&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg6&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-06-28T01:37:50.053+02:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;3&lt;/id&gt;&#xd;
+    &lt;message&gt;msg6&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+&lt;/messages&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1446497084651" s="true" lb="POST - profile - profile1" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="233" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 99
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 137
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;responseMessage&gt;&#xd;
+  &lt;description&gt;Profile name=profile1 already exists.&lt;/description&gt;&#xd;
+&lt;/responseMessage&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+&lt;/profile&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1446497084680" s="true" lb="DELETE - message - id - 3" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="226" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 92
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 37
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;responseMessage&gt;&#xd;
+  &lt;description&gt;Message id 3 has been deleted.&lt;/description&gt;&#xd;
+&lt;/responseMessage&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String">&lt;message&gt;&#xd;
+    &lt;id&gt;3&lt;/id&gt;&#xd;
+&lt;/message&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1446497084702" s="true" lb="GET - profiles - after - POST" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="338" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 203
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profiles&gt;&#xd;
+  &lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+  &lt;/profile&gt;&#xd;
+&lt;/profiles&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1446497084702" s="true" lb="GET - messages - after - DELETE" rc="200" rm="OK" tn="Messages 1-1" dt="text" de="" by="465" sc="1" ec="0" ng="1" na="2" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 330
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;messages&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.698+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;message&gt;msg&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+  &lt;message&gt;&#xd;
+    &lt;author&gt;pg2&lt;/author&gt;&#xd;
+    &lt;createdDate&gt;2015-11-02T21:44:44.698+01:00&lt;/createdDate&gt;&#xd;
+    &lt;id&gt;2&lt;/id&gt;&#xd;
+    &lt;message&gt;msg2&lt;/message&gt;&#xd;
+  &lt;/message&gt;&#xd;
+&lt;/messages&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/messages</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1446497084715" s="true" lb="PUT - profile - profile5" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="219" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 85
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 137
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;responseMessage&gt;&#xd;
+  &lt;description&gt;Profile does not exist.&lt;/description&gt;&#xd;
+&lt;/responseMessage&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">&lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName5&lt;/firstName&gt;&#xd;
+    &lt;lastName&gt;lastName5&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile5&lt;/profileName&gt;&#xd;
+&lt;/profile&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1446497084729" s="true" lb="GET - profiles - after - PUT" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="338" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 203
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profiles&gt;&#xd;
+  &lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+  &lt;/profile&gt;&#xd;
+&lt;/profiles&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1446497084752" s="true" lb="DELETE - profile - profile2" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="219" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 85
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Content-Length: 62
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;responseMessage&gt;&#xd;
+  &lt;description&gt;Profile does not exist.&lt;/description&gt;&#xd;
+&lt;/responseMessage&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String">&lt;profile&gt;&#xd;
+    &lt;profileName&gt;profile2&lt;/profileName&gt;&#xd;
+&lt;/profile&gt;</queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1446497084769" s="true" lb="GET - profile11" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="218" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 84
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profile&gt;&#xd;
+  &lt;id&gt;0&lt;/id&gt;&#xd;
+&lt;/profile&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles/profile11</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1446497084785" s="true" lb="GET - profiles - after" rc="200" rm="OK" tn="Profiles 2-1" dt="text" de="" by="338" sc="1" ec="0" ng="1" na="1" hn="GIEPE">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/xml
+Content-Length: 203
+Date: Mon, 02 Nov 2015 20:44:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/xml
+Host: localhost:8080
+User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;profiles&gt;&#xd;
+  &lt;profile&gt;&#xd;
+    &lt;firstName&gt;firstName1&lt;/firstName&gt;&#xd;
+    &lt;id&gt;1&lt;/id&gt;&#xd;
+    &lt;lastName&gt;lastName1&lt;/lastName&gt;&#xd;
+    &lt;profileName&gt;profile1&lt;/profileName&gt;&#xd;
+  &lt;/profile&gt;&#xd;
+&lt;/profiles&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/messenger/webapi/profiles</java.net.URL>
+</httpSample>
+
 </testResults>
